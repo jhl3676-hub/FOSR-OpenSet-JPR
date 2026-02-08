@@ -25,6 +25,7 @@ Please place the dataset files in the data/ directory. The datasets include:
 
 - JPR2024_rician.mat
 
+The dataset is provided via GitHub Releases:
 ---
 
 ## Usage
