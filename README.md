@@ -40,13 +40,19 @@ Train on the source domain and then perform test-time adaptation on the target d
 - `--target_data`: Path to the target-domain dataset (required for DA mode)  
 - `--mode`: Running mode  
   - `basic`: Source-only evaluation  
-  - `da`: Source trained model and test in target using DA mode 
+  - `da`: Training with Source and testing with Domain Adaptation. 
 
 ---
 
 ## Dataset
 
-数据集可以从data路径中下载，包含JPR2024_rayleigh.mat,JPR2024_rician.mat and JPR2024_gaussian.mat 数据集详情见论文.
+Please place the dataset files in the data/ directory. The datasets include:
+
+- `JPR2024_gaussian.mat
+
+- `JPR2024_rayleigh.mat
+
+- `JPR2024_rician.mat
 
 ---
 
