@@ -1,7 +1,6 @@
 # FOSR-DA  
 
-FOSR-DA is a feature-enhanced deep learning framework for open-set recognition of communication jamming directly from raw complex-valued I/Q data.  
-The domain adaptation (DA) module is specifically designed to improve the robustness of the Mahalanobis-distance-based open-set classifier under domain shifts.
+FOSR-DA is a feature-enhanced framework for jamming open-set recognition from raw I/Q data, with a DA module designed for the Mahalanobis-distance classifier.
 
 This repository provides the official PyTorch implementation of:
 
@@ -13,6 +12,18 @@ This repository provides the official PyTorch implementation of:
 Install the required dependencies:
 
     pip install -r requirements.txt
+
+---
+
+## Dataset
+
+Please place the dataset files in the data/ directory. The datasets include:
+
+- JPR2024_gaussian.mat
+
+- JPR2024_rayleigh.mat
+
+- JPR2024_rician.mat
 
 ---
 
@@ -41,18 +52,6 @@ Train on the source domain and then perform test-time adaptation on the target d
 - `--mode`: Running mode  
   - `basic`: Source-only evaluation  
   - `da`: Training with Source and testing with Domain Adaptation. 
-
----
-
-## Dataset
-
-Please place the dataset files in the data/ directory. The datasets include:
-
-- JPR2024_gaussian.mat
-
-- JPR2024_rayleigh.mat
-
-- JPR2024_rician.mat
 
 ---
 
