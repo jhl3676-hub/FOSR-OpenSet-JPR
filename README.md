@@ -1,6 +1,6 @@
 # FOSR-DA  
 
-FOSR-DA is a feature-enhanced framework for jamming open-set recognition from raw I/Q data, with a DA module designed for the Mahalanobis-distance classifier.
+FOSR-DA is a feature-enhanced framework for jamming open-set recognition from raw I/Q data, with a domain adaptation (DA) module designed for the Mahalanobis-distance classifier.
 
 This repository provides the official PyTorch implementation of:
 
