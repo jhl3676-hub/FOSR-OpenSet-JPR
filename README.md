@@ -25,7 +25,7 @@ Please place the dataset files in the data/ directory. The datasets include:
 
 - JPR2024_rician.mat
 
-The dataset is provided via GitHub Releases:https://github.com/jhl3676-hub/FOSR-OpenSet-JPR/releases/tag/dataset
+The dataset is provided via GitHub Releases: https://github.com/jhl3676-hub/FOSR-OpenSet-JPR/releases/tag/dataset
 
 ---
 
