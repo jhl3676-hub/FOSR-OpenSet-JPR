@@ -18,7 +18,7 @@ Install the required dependencies:
 
 ## Usage
 
-### 1. Basic Mode (Source-Only / No Adaptation)
+### 1. Basic Mode (Source-Only)
 
 Train on the source domain and evaluate on the source domain:
 
@@ -26,7 +26,7 @@ Train on the source domain and evaluate on the source domain:
 
 ---
 
-### 2. Domain Adaptation Mode (Test-Time Adaptation)
+### 2. Domain Adaptation Mode (Domain Adaptation)
 
 Train on the source domain and then perform test-time adaptation on the target domain: 
 
@@ -64,7 +64,11 @@ Please place the dataset files in the data/ directory. The datasets include:
       journal   = {Under Review},
       year      = {2025}
     }
+    
+---
+
 ## License/许可证
+
 本项目基于自定义非商业许可证发布，禁止用于任何形式的商业用途。
 
 This project is distributed under a custom non-commercial license. Any form of commercial use is prohibited.
