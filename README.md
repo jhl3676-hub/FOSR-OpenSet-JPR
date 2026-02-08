@@ -48,11 +48,11 @@ Train on the source domain and then perform test-time adaptation on the target d
 
 Please place the dataset files in the data/ directory. The datasets include:
 
-- `JPR2024_gaussian.mat
+- JPR2024_gaussian.mat
 
-- `JPR2024_rayleigh.mat
+- JPR2024_rayleigh.mat
 
-- `JPR2024_rician.mat
+- JPR2024_rician.mat
 
 ---
 
